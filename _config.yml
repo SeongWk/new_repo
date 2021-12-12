@@ -17,7 +17,8 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - github: "https://github.com/SeongWk"
-    - linkedin: "www.linkedin.com/in/seong-wook-lim-646279165"
+   
+  Studying: "study"
 
 
 # --- Logo --- #
