@@ -14,7 +14,7 @@ author: SeongWook Lim
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "It's Me"
+  About Me: "aboutme"
   Resources:
     - github: "https://github.com/SeongWk"
     - linkedin: "www.linkedin.com/in/seong-wook-lim-646279165"
