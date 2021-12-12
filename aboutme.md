@@ -1,12 +1,17 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Introduce
+subtitle: Who Am I?
 ---
 
 My name is SeongWook Lim
 
-What else do you need?
+👋 Hi, I’m @SeongWk
+👀 I’m interested in app, Travel, Tea, Soccer, Music, blablabla .. etc!!
+🌱 I’m currently learning Swift with Xcode
+📫 I'm studying App
+📖 I'm majored in Computer Science
+😁My hobby is walking park and See netflix documentary
 
-### My story
+
 
