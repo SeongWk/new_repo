@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "sceme Transformation" 
-subtitle:  "view to view, Navigation, Segue"
+title: "scene Transformation" 
+subtitle:  "view to view"
 cover-img: /assets/img/p1.jpg
 thumbnail-img: /assets/img/effel.jpeg
 share-img: /assets/img/path.jpg
@@ -60,5 +60,5 @@ VIEW TO VIEW
 
 FINISH!
 
---네비게이션 컨트롤러
+
 
