@@ -3,7 +3,7 @@ layout: post
 title: "scene Transformation" 
 subtitle:  "view to view"
 cover-img: /assets/img/p1.jpg
-thumbnail-img: /assets/img/effel.jpeg
+thumbnail-img: /assets/img/door.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
