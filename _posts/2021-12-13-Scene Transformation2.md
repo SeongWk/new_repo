@@ -2,8 +2,8 @@
 layout: post
 title: "scene Transformation2" 
 subtitle:  "NaviGationController"
-cover-img: /assets/img/view22.jpeg
-thumbnail-img: /assets/img/door.jpeg
+cover-img: /assets/img/castle3.jpeg
+thumbnail-img: /assets/img/castle2.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
