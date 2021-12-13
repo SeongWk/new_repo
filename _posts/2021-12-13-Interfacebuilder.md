@@ -16,3 +16,6 @@ comments: true
 
 @IBAction으 화면상에서 객체의 이벤트를 참조하는 어노테이션입니다.
 목적은 객체 이벤트를 제어하느 것이고 액션 메소드라고 합니다.
+
+
+<img width="449" alt="Screen Shot 2021-12-13 at 21 07 21" src="https://user-images.githubusercontent.com/40172001/145810048-9a5170c9-e46d-4b0c-b742-4d6c736cda0d.png">
