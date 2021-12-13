@@ -19,3 +19,15 @@ comments: true
 
 
 <img width="449" alt="Screen Shot 2021-12-13 at 21 07 21" src="https://user-images.githubusercontent.com/40172001/145810048-9a5170c9-e46d-4b0c-b742-4d6c736cda0d.png">
+
+뷰에서 라벨과 버튼으 준비해둡니다.
+
+<img width="1005" alt="Screen Shot 2021-12-13 at 21 09 12" src="https://user-images.githubusercontent.com/40172001/145810432-1df3fc5b-3bae-4d6b-aacb-e87ccc93a677.png">
+
+아울렛 변수와 액션변수를 선언한후 메소드를 입력합니다
+
+시뮬레이터가 돌아가면서 앱이 실행됩니다!
+[Uploading Screen Shot 2021-12-13 at 21.10.42.png…]()
+
+버틍으 누르게 되면 라벨이 바뀌게 되는 것을 볼수가 있습니다
+<img width="339" alt="Screen Shot 2021-12-13 at 21 10 55" src="https://user-images.githubusercontent.com/40172001/145810619-eff33363-f7a8-49ca-be39-8e4380b64752.png">
