@@ -6,7 +6,9 @@ cover-img: /assets/img/p1.jpg
 thumbnail-img: /assets/img/effel.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: /Seongwk/testts/IBTest
+gh-badge: [star, fork, follow]
 tags: [swift, ios, Xcode]
+comments: true
 ---
 
 @IBoutlet은 화면상에서 객체를 참조하는 어노테이션입니다
