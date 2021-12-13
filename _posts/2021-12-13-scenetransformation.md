@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "scene Transformation" 
+title: "scene Transformation1" 
 subtitle:  "view to view"
-cover-img: /assets/img/p1.jpg
+cover-img: /assets/img/view22.jpeg
 thumbnail-img: /assets/img/door.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
