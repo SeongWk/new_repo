@@ -2,7 +2,7 @@
 layout: post
 title: Interface builder 
 subtitle:  @IBOutlet and @IBAction
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/p1.jpg
 thumbnail-img: /assets/img/effel.jpeg
 share-img: /assets/img/path.jpg
 tags: [swift, ios, Xcode]
