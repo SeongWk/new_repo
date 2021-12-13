@@ -18,19 +18,25 @@ comments: true
 목적은 객체 이벤트를 제어하느 것이고 액션 메소드라고 합니다.
 
 
-<img width="449" alt="Screen Shot 2021-12-13 at 21 07 21" src="https://user-images.githubusercontent.com/40172001/145810048-9a5170c9-e46d-4b0c-b742-4d6c736cda0d.png">
 
 뷰에서 라벨과 버튼으 준비해둡니다.
 
-<img width="1005" alt="Screen Shot 2021-12-13 at 21 09 12" src="https://user-images.githubusercontent.com/40172001/145810432-1df3fc5b-3bae-4d6b-aacb-e87ccc93a677.png">
+<img width="449" alt="Screen Shot 2021-12-13 at 21 07 21" src="https://user-images.githubusercontent.com/40172001/145810986-b5505d39-43c2-4a46-bd75-2077715b9c97.png">
+
+
 
 아울렛 변수와 액션변수를 선언한후 메소드를 입력합니다
 
+<img width="1005" alt="Screen Shot 2021-12-13 at 21 09 12" src="https://user-images.githubusercontent.com/40172001/145811041-a1102029-54f9-46bb-988a-6b0ac8b1a8eb.png">
+
+
 시뮬레이터가 돌아가면서 앱이 실행됩니다!
 
-<img width="322" alt="Screen Shot 2021-12-13 at 21 10 42" src="https://user-images.githubusercontent.com/40172001/145810743-3af11097-c5ca-49fd-8b78-1f3977484074.png">
+<img width="322" alt="Screen Shot 2021-12-13 at 21 10 42" src="https://user-images.githubusercontent.com/40172001/145811054-0d95b4c5-ae2c-4230-b4a4-715d03516615.png">
 
 
 버틍으 누르게 되면 라벨이 바뀌게 되는 것을 볼수가 있습니다
 
-<img width="339" alt="Screen Shot 2021-12-13 at 21 10 55" src="https://user-images.githubusercontent.com/40172001/145810619-eff33363-f7a8-49ca-be39-8e4380b64752.png">
+<img width="339" alt="Screen Shot 2021-12-13 at 21 10 55" src="https://user-images.githubusercontent.com/40172001/145811062-ab004c8f-8aba-4bb3-a0fa-a0ae3167ff40.png">
+
+
