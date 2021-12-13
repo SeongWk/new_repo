@@ -27,7 +27,10 @@ comments: true
 아울렛 변수와 액션변수를 선언한후 메소드를 입력합니다
 
 시뮬레이터가 돌아가면서 앱이 실행됩니다!
-[Uploading Screen Shot 2021-12-13 at 21.10.42.png…]()
+
+<img width="322" alt="Screen Shot 2021-12-13 at 21 10 42" src="https://user-images.githubusercontent.com/40172001/145810743-3af11097-c5ca-49fd-8b78-1f3977484074.png">
+
 
 버틍으 누르게 되면 라벨이 바뀌게 되는 것을 볼수가 있습니다
+
 <img width="339" alt="Screen Shot 2021-12-13 at 21 10 55" src="https://user-images.githubusercontent.com/40172001/145810619-eff33363-f7a8-49ca-be39-8e4380b64752.png">
