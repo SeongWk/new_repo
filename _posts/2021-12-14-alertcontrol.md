@@ -3,7 +3,7 @@ layout: post
 title: "Alertcontrol" 
 subtitle:  "UIAlertController"
 cover-img: /assets/img/c1.jpeg
-thumbnail-img: /assets/img/c2.jpeg
+thumbnail-img: /assets/img/d1.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
