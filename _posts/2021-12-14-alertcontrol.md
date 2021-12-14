@@ -21,7 +21,7 @@ comments: true
  
  만약 사용자에게 입력 필드를 주고 싶으면 addTextfield함수를 추가하여 원하는 인스턴스 구문에 있는 클로저블록안에 추가합니다.
  
- 첫번째버튼 함수를 보면 UIAertController를 선언하고 UIAlertAction 선언후 addaction으로 컨트롤러에 등록해 present메소드로 알림창으 실행합니다
+ 첫번째버튼 함수를 보면 UIAertController를 선언하고 UIAlertAction 선언후 addaction으로 컨트롤러에 등록해 present메소드로 알림창을 실행합니다
  
  <img width="1050" alt="Screen Shot 2021-12-14 at 15 30 37" src="https://user-images.githubusercontent.com/40172001/145947315-afc52c9a-7540-4caf-91cf-6f73f718cfa9.png">
 
@@ -50,7 +50,8 @@ comments: true
  
  두번째 알림을 누르면
  
- <img width="316" alt="Screen Shot 2021-12-14 at 15 33 14" src="https://user-images.githubusercontent.com/40172001/145947099-4dafa51b-0281-417b-8303-a8350dfc5b4d.png">
+ 
+<img width="314" alt="Screen Shot 2021-12-14 at 15 33 03" src="https://user-images.githubusercontent.com/40172001/145948457-3844a297-31ac-46e4-b604-7b297994704b.png">
 
  
  세번째 알림을 누르면
@@ -59,7 +60,7 @@ comments: true
  <img width="316" alt="Screen Shot 2021-12-14 at 15 33 14" src="https://user-images.githubusercontent.com/40172001/145948095-ef53c379-12bd-4f11-a9cd-c0882e91b83e.png">
 
  
- 세번째 알림에서 내가 지정한 iD와 password가 일치하면 success로 바뀌는 것으 볼수 있습니다.
+ 세번째 알림에서 내가 지정한 iD와 password가 일치하면 success로 바뀌는 것을 볼 수 있습니다.
  
  <img width="329" alt="Screen Shot 2021-12-14 at 15 32 46" src="https://user-images.githubusercontent.com/40172001/145947036-8c11c44f-f6b1-44bf-b8f0-82123e8ad083.png">
 
