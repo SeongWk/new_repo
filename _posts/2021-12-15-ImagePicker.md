@@ -1,4 +1,15 @@
-
+---
+layout: post
+title: "ImagePicker" 
+subtitle:  "Pick me Pick me Pick me One!"
+cover-img: /assets/img/a24.jpeg
+thumbnail-img: /assets/img/a23.jpeg
+share-img: /assets/img/path.jpg
+gh-repo: Seongwk/testts
+gh-badge: [star, fork, follow]
+tags: [swift, ios, Xcode]
+comments: true
+---
 
 
 이미지피커 컨트롤러는 말 그대로 카메라나 앨범에서 이미지를 선택하여 사용하는 컨트롤러입니다.
