@@ -2,8 +2,8 @@
 layout: post
 title: "ImagePicker" 
 subtitle:  "Pick me Pick me Pick me One!"
-cover-img: /assets/img/a24.jpeg
-thumbnail-img: /assets/img/a23.jpeg
+cover-img: /assets/img/c12.jpeg
+thumbnail-img: /assets/img/c13.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
