@@ -2,8 +2,8 @@
 layout: post
 title: "TextField" 
 subtitle:  "Text"
-cover-img: /assets/img/castle3.jpeg
-thumbnail-img: /assets/img/castle2.jpeg
+cover-img: /assets/img/a24.jpeg
+thumbnail-img: /assets/img/a23.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
