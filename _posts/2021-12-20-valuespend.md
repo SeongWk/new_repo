@@ -14,9 +14,12 @@ comments: true
 
 값을 전달해보는 실습을 해보겠습니다.
 
-view to view
+view to view, navigationcontroller, Segue(perform)
 
 이메일입력과 자동갱신, 자동갱신 주기를 설정해보는 데모앱입니다.
+
+1.view to view
+
 
 처음 scene을 설정합니다.
 
@@ -54,6 +57,9 @@ google.com과 갱신못함 갱신주기를 2분으로 설정합니다
 
 다시 자신이 원하는 이메일을 설정할 수 있습니다.
 
+2.NavigationController
+
+
 Navigationcontroller로 값 전달해보기
 
 바뀌는 값은 별로 없습니다 몇가지만 설정하면 다를께없습니다.
@@ -84,6 +90,9 @@ present함수 대신 네비게이션 컨트롤러에서 사용하는 pushViewCon
 ![Screen Shot 2021-12-20 at 1 53 57](https://user-images.githubusercontent.com/40172001/146684235-fb14a3f5-0484-4043-a3aa-fa888b83ea51.png)
 
 back과 혹은 위에 되돌아오기 버튼을 누르면 다시 설정할 수 있는 화면으로 돌아옵니다.
+
+3.Segue
+
 
 Segue로 전달하는 방법입니다.
 
