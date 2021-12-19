@@ -18,7 +18,8 @@ view to view, navigationcontroller, Segue(perform)
 
 이메일입력과 자동갱신, 자동갱신 주기를 설정해보는 데모앱입니다.
 
-1.view to view
+##
+1. view to view
 
 
 처음 scene을 설정합니다.
@@ -33,7 +34,8 @@ view to view, navigationcontroller, Segue(perform)
 
 ![Screen Shot 2021-12-20 at 1 42 42](https://user-images.githubusercontent.com/40172001/146683766-3b191c1e-1579-4176-b9b9-f036041dd746.png)
 
-go 버튼에서 받을 파라미터를 설정하고 videoload함수에 선언합니다 이유는 오버라이딩된 함수의 값을 다운캐스팅에서 바로 받아야되기 때문에 videoload에다가 선업합니다.
+go 버튼에서 받을 파라미터를 설정하고 videoload함수에 선언합니다 
+이유는 오버라이딩된 함수의 값을 다운캐스팅에서 바로 받아야되기 때문에 videoload에다가 선업합니다.
 받을 값을 변수에 저장해두고 다시 반대로 돌아가기위한 버튼도 선언합니다.
 back버튼은 dismiss를 사용합니다.
 
@@ -57,6 +59,8 @@ google.com과 갱신못함 갱신주기를 2분으로 설정합니다
 
 다시 자신이 원하는 이메일을 설정할 수 있습니다.
 
+
+##
 2.NavigationController
 
 
@@ -71,7 +75,8 @@ present함수 대신 네비게이션 컨트롤러에서 사용하는 pushViewCon
 
 ![Screen Shot 2021-12-20 at 1 54 31](https://user-images.githubusercontent.com/40172001/146684048-d8c0c042-6c7c-41b6-93ef-6ed0f9f7bdc8.png)
 
-마찬가지로 dismiss함수 대신 popviewController를 사용합니다 사실 네비게이션컨트롤러는 자동으로 다시돌아오기 버튼을 왼쪽위에서 제공하긴 하지만 이론상 하나더 만들어 보았습니다.
+마찬가지로 dismiss함수 대신 popviewController를 사용합니다 
+사실 네비게이션컨트롤러는 자동으로 다시돌아오기 버튼을 왼쪽위에서 제공하긴 하지만 이론상 하나더 만들어 보았습니다.
 
 ![Screen Shot 2021-12-20 at 1 54 19](https://user-images.githubusercontent.com/40172001/146684122-169bd706-8b5c-45e8-ac09-bb97f8c92102.png)
 
@@ -91,6 +96,8 @@ present함수 대신 네비게이션 컨트롤러에서 사용하는 pushViewCon
 
 back과 혹은 위에 되돌아오기 버튼을 누르면 다시 설정할 수 있는 화면으로 돌아옵니다.
 
+
+##
 3.Segue
 
 
