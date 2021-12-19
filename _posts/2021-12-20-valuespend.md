@@ -2,8 +2,8 @@
 layout: post
 title: "value spend" 
 subtitle:  "view to view, navigation"
-cover-img: /assets/img/castle3.jpeg
-thumbnail-img: /assets/img/castle2.jpeg
+cover-img: /assets/img/h2.jpeg
+thumbnail-img: /assets/img/h1.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
