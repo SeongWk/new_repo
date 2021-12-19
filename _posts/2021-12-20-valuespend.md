@@ -65,3 +65,27 @@ present함수 대신 네비게이션 컨트롤러에서 사용하는 pushViewCon
 
 ![Screen Shot 2021-12-20 at 1 54 31](https://user-images.githubusercontent.com/40172001/146684048-d8c0c042-6c7c-41b6-93ef-6ed0f9f7bdc8.png)
 
+마찬가지로 dismiss함수 대신 popviewController를 사용합니다 사실 네비게이션컨트롤러는 자동으로 다시돌아오기 버튼을 왼쪽위에서 제공하긴 하지만 이론상 하나더 만들어 보았습니다.
+
+![Screen Shot 2021-12-20 at 1 54 19](https://user-images.githubusercontent.com/40172001/146684122-169bd706-8b5c-45e8-ac09-bb97f8c92102.png)
+
+초기화면
+
+![Screen Shot 2021-12-20 at 2 15 25](https://user-images.githubusercontent.com/40172001/146684217-ff2a7f40-923e-4d1d-89dd-58397de599d3.png)
+
+
+똑같이 설정하고 (view to view same situation)
+
+
+![Screen Shot 2021-12-20 at 1 53 47](https://user-images.githubusercontent.com/40172001/146684223-287a6ad3-1483-4dd8-882c-f0a5fabd5154.png)
+
+결과화면
+
+![Screen Shot 2021-12-20 at 1 53 57](https://user-images.githubusercontent.com/40172001/146684235-fb14a3f5-0484-4043-a3aa-fa888b83ea51.png)
+
+back과 혹은 위에 되돌아오기 버튼을 누르면 다시 설정할 수 있는 화면으로 돌아옵니다.
+
+이로써 실젤로 값을 전달하면 값을 저장하는 변수와 갈수 있는 상수 값을 보내는 변수 표현하는 상수 등 값을 보내는 방법에 대해 공부해보았습니다.
+끝!
+
+
