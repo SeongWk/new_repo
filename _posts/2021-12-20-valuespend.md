@@ -35,3 +35,4 @@ go 버튼에서 받을 파라미터를 설정하고 videoload함수에 선언합
 back버튼은 dismiss를 사용합니다.
 
 ![Screen Shot 2021-12-20 at 1 42 50](https://user-images.githubusercontent.com/40172001/146683794-85f182c6-8f6f-4d85-b8c1-a0465adf5633.png)
+
