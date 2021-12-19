@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "value spend" 
-subtitle:  "view to view, navigation"
+subtitle:  "view to view, navigation,segue"
 cover-img: /assets/img/h2.jpeg
 thumbnail-img: /assets/img/h1.jpeg
 share-img: /assets/img/path.jpg
@@ -84,6 +84,30 @@ present함수 대신 네비게이션 컨트롤러에서 사용하는 pushViewCon
 ![Screen Shot 2021-12-20 at 1 53 57](https://user-images.githubusercontent.com/40172001/146684235-fb14a3f5-0484-4043-a3aa-fa888b83ea51.png)
 
 back과 혹은 위에 되돌아오기 버튼을 누르면 다시 설정할 수 있는 화면으로 돌아옵니다.
+
+Segue로 전달하는 방법입니다.
+
+go버튼을 segue로 넘어가는 방법으로 설정해줍니다
+
+![Screen Shot 2021-12-20 at 2 29 41](https://user-images.githubusercontent.com/40172001/146684754-2f71c73e-b5e0-47fd-8589-29b2347c89a1.png)
+
+prepare함수로 segue를 사용자 설정으로 선언해주고 manualsubmit이라는 identifier를 설정하여 줍니다
+![Screen Shot 2021-12-20 at 2 29 13](https://user-images.githubusercontent.com/40172001/146684770-eb6abc96-1c99-4ea9-bc26-b2213c9be676.png)
+
+![Screen Shot 2021-12-20 at 2 29 30](https://user-images.githubusercontent.com/40172001/146684838-28eddf8c-c352-4e45-b1ec-c02f41f57dc5.png)
+
+초기화면
+
+![Screen Shot 2021-12-20 at 2 36 24](https://user-images.githubusercontent.com/40172001/146684897-108ab0e8-fd2c-4839-a973-beed6b287a44.png)
+
+위에 navi컨트롤러와 비슷하게 설정해줍니다
+
+![Screen Shot 2021-12-20 at 2 37 34](https://user-images.githubusercontent.com/40172001/146684928-789383a4-d00e-4426-9670-e6502b6ef852.png)
+
+결과화면이 나타나고 segue를 모달로 설정하여서 화면을 내리면 설정화면으로 돌아갑니다.
+
+![Screen Shot 2021-12-20 at 2 30 19](https://user-images.githubusercontent.com/40172001/146684954-625c32fb-d43e-4937-9f16-9e91c63e8704.png)
+
 
 이로써 실젤로 값을 전달하면 값을 저장하는 변수와 갈수 있는 상수 값을 보내는 변수 표현하는 상수 등 값을 보내는 방법에 대해 공부해보았습니다.
 끝!
