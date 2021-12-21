@@ -55,13 +55,23 @@ movie2라는 스위프트 파일으 선언하여 라벨에 해당하는 아울�
 ![Screen Shot 2021-12-21 at 17 05 15](https://user-images.githubusercontent.com/40172001/146894575-cd93aa03-ea34-4eef-bbf1-774efab17197.png)
 
 
-마지막으로는 추가로 썸네일 사진을 넣고 싶다라고 하면 imgaeview함수를 라벨링 옆에 넣어두고 UIimage함수로 자신이 원하는 테이블 뷰에 맞는 사진을 선언해 주면 완성됩니다.
+마지막으로는 추가로 썸네일 사진을 넣고 싶다라고 하면 imgaeview함수를 라벨링 옆에 넣어두고 UIimage함수로 
+자신이 원하는 테이블 뷰에 맞는 사진을 선언해 주면 완성됩니다.
+
 또한 이미지를 넣고 싶으면 이미지 사진을 끌어와 참조해주는 방식으로 설정하면 됩니다.
+
+
 ![Screen Shot 2021-12-21 at 17 14 11](https://user-images.githubusercontent.com/40172001/146894856-773ef945-8439-4f00-a6e1-1d3bf8089b75.png)
+
 ![Screen Shot 2021-12-21 at 17 14 23](https://user-images.githubusercontent.com/40172001/146894875-4890bec1-91b6-4d12-916a-6656d2d66f82.png)
 
 초기화면
 
 ![Screen Shot 2021-12-21 at 17 05 55](https://user-images.githubusercontent.com/40172001/146894990-001cbf19-257e-4e0a-a3fd-43c0670b5fc7.png)
 
-사진에 나와있듯이 썸네일 ㅅ
+사진에 나와있듯이 썸네일 사진과 제목,소제목,날짜.평점(임의로 만든)나와 있는 것을 볼 수 있습니다.
+
+여기서 추가로 할려면 네비게이션 컨트롤러를 추가해서 안에 있는 내용을 확인하게 만들 수 있지만 
+오늘은 테이블뷰를 만들었다까지 하겠습니다.
+
+끝
