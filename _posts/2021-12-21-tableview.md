@@ -2,8 +2,8 @@
 layout: post
 title: "Table_view" 
 subtitle:  "movie chart"
-cover-img: /assets/img/p1.jpg
-thumbnail-img: /assets/img/effel.jpeg
+cover-img: /assets/img/f1.jpeg
+thumbnail-img: /assets/img/f2.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
