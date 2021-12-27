@@ -51,3 +51,32 @@ api에 담겨져있는 상영관명,주소,연락처가 개시된 data를 실제
 
 mapkit
 
+맵킷을 말 그대로 맵을 보여주는 프레임워크입니다,.
+맵킷을 실행하고 싶을 떄는 import mapkit을 한 뒤 사용하는 것입니다.
+
+자신이 원하는 장소의 지도를 보여주는 view로써 다양하게 쓰입니다.
+
+저는 영화관 지도를 보여주는 것을 해보겠습니다.
+
+![Screen Shot 2021-12-27 at 16 35 25](https://user-images.githubusercontent.com/40172001/147447565-7c7e6a3b-9255-4f38-afec-40c853d7de21.png)
+
+뷰컨트롤러를 옆에 추가한후 mapkiit을 뷰컨틀롤러 안에다가 배치시킵니다.
+
+![Screen Shot 2021-12-27 at 16 35 25](https://user-images.githubusercontent.com/40172001/147447862-41997c6f-9c67-42c6-8364-f198368f964a.png)
+
+
+저번에 배웠던 peformsegue를 사용하기위해 identifier을 지정시킨뒤에 segue를 설정합니다.
+
+![Screen Shot 2021-12-27 at 16 35 07](https://user-images.githubusercontent.com/40172001/147447852-e9c67e85-3d68-4dab-9441-f610757a1b4b.png)
+
+
+위도와경도,지도데이터를 가져와 화면에 보여줍니다.
+
+![Screen Shot 2021-12-27 at 16 34 52](https://user-images.githubusercontent.com/40172001/147447839-f4de27e9-8e5d-4e2f-8b35-86af5f17c933.png)
+
+
+실행된 화면
+
+![Screen Shot 2021-12-27 at 16 35 44](https://user-images.githubusercontent.com/40172001/147447815-75aae5bd-bb1a-410e-8ad6-08e3d965d3ab.png)
+
+finish!
