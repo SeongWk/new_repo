@@ -2,8 +2,8 @@
 layout: post
 title: "Tab Bar and Mapkit" 
 subtitle:  "inappframework"
-cover-img: /assets/img/c1.jpeg
-thumbnail-img: /assets/img/d1.jpeg
+cover-img: /assets/img/u24.jpeg
+thumbnail-img: /assets/img/u25.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
