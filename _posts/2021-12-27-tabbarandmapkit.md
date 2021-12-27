@@ -45,3 +45,9 @@ UITabBarcontroller에 정의되어 있습니다.
 
 api에 담겨져있는 상영관명,주소,연락처가 개시된 data를 실제 뷰컨틀롤러와 연결시켜 사용자에게 보여주게 합니다.
 
+![Screen Shot 2021-12-27 at 16 31 50](https://user-images.githubusercontent.com/40172001/147447062-4f0b84bd-17d0-46cf-bf0d-335e37ce12a7.png)
+
+앱을 실행시킨 후 옆에 탭을 눌러보면 영화관정보가 나오는 것으 볼 수 있습니다.
+
+mapkit
+
