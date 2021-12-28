@@ -119,7 +119,7 @@ footer-hover-col: "#0085A1"
 #navbar-img: "/assets/img/bgimage.png"
 footer-img: "/assets/img/green22.png"
 page-img: "/assets/img/bgimage.png"
-title-img: "/assets/img/bgimage.png"
+#title-img: "/assets/img/bgimage.png"
 #cover-img: "/assets/img/green22.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
