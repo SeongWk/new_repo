@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "function,optional"
-subtitle:  "blablabla"
+subtitle:  "함수와 옵셔널"
 cover-img: /assets/img/p43.jpeg
 thumbnail-img: /assets/img/p42.jpeg
 share-img: /assets/img/path.jpg
