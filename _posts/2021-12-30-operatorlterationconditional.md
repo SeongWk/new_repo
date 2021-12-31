@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "operator,lteration,conditional"
-subtitle:  "blablabla"
+subtitle:  "연산자,조건문,반복문"
 cover-img: /assets/img/e88.jpeg
 thumbnail-img: /assets/img/e90.jpeg
 share-img: /assets/img/path.jpg
