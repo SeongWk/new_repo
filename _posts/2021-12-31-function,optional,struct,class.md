@@ -2,8 +2,8 @@
 layout: post
 title: "function,optional"
 subtitle:  "blablabla"
-cover-img: /assets/img/e88.jpeg
-thumbnail-img: /assets/img/e90.jpeg
+cover-img: /assets/img/p43.jpeg
+thumbnail-img: /assets/img/p42.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
