@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "function,optional"
-subtitle:  "함수와 옵셔널"
+title: "function,optional,class,struct"
+subtitle:  "함수와 옵셔널 그리고 구조체와 클래스"
 cover-img: /assets/img/p43.jpeg
 thumbnail-img: /assets/img/p42.jpeg
 share-img: /assets/img/path.jpg
@@ -67,3 +67,38 @@ optional
 만약 옵셔널을 강제추출하고 싶으면 ! 를 사용하여 강제로 뺴내어 오게 하면 됩니다
 
 ![Screen Shot 2021-12-31 at 14 34 37](https://user-images.githubusercontent.com/40172001/147805424-9426dbc4-94e0-4811-a9a4-108e8571650e.png)
+
+
+struct 
+
+구조체 - 사용자가 원하는 묶음을 모음으로 만든 것입니다.
+
+Strict  name
+{
+	code
+}
+
+![Screen Shot 2022-01-04 at 22 50 51](https://user-images.githubusercontent.com/40172001/148070583-73b3e18c-18a3-4291-ab50-f947b6c85ef0.png)
+
+
+구조체는 인스터스를 생성할 떄 변수는 상관없지만 만약 상수로 선언이 되면 값을 변경할 수가 없습니다.
+
+![Screen Shot 2022-01-04 at 22 50 36](https://user-images.githubusercontent.com/40172001/148070620-819009bd-2fb6-405c-8c37-72ecd9ef1e7a.png)
+
+
+
+Class
+
+클래스는 구조체와 마찬가지로 선언문입니다.
+
+Class name
+{
+	code
+}
+
+![Screen Shot 2022-01-04 at 22 55 16](https://user-images.githubusercontent.com/40172001/148070647-06bbe706-2bef-4e49-818a-ec150adb84ad.png)
+
+구조체와 다른 점은 클래스는 참조타입이므로 상수로 선언 된 값을 변경 할 수 있습니다
+![Screen Shot 2022-01-04 at 22 54 50](https://user-images.githubusercontent.com/40172001/148070678-c11a660f-3dd0-4568-aba6-3517d1397f4b.png)
+
+구조체와 클래스와 다른 점은 구조체는 값타입 클래스는 참조타입입니다.
