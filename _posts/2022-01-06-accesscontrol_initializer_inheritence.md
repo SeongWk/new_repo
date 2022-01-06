@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "초기화,상속,접근제어" 
+title: "initializer, inheritence, override,accesscontrol" 
 subtitle:  "기본,멤버즈,등등"
 cover-img: /assets/img/l877.jpeg
 thumbnail-img: /assets/img/l878.jpeg
