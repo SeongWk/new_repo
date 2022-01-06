@@ -68,6 +68,32 @@ optional
 
 ![Screen Shot 2021-12-31 at 14 34 37](https://user-images.githubusercontent.com/40172001/147805424-9426dbc4-94e0-4811-a9a4-108e8571650e.png)
 
+옵셔널 바인딩
+
+옵셔널 바인딩은 옵셔널에 값이 있는 지 확인이 필요할 때 사용합니다. 
+만약 옵셔널에 값이 있으면 값을 반환하고 없으면은 확인만 합니다.
+보통 조건문을 사용하여 바인딩으 시작합니다.
+
+![Screen Shot 2022-01-06 at 15 00 32](https://user-images.githubusercontent.com/40172001/148347765-98cca175-7d5d-4c26-918c-b86f726d3af0.png)
+
+![Screen Shot 2022-01-06 at 15 01 02](https://user-images.githubusercontent.com/40172001/148347797-2f2e26cf-9116-4357-ab7a-b80ab3c5583b.png)
+
+
+옵셔널 체이닝 
+
+옵셔널 체이닝은 옵셔널을 반복사용하여 마치 자전거 체인처럼 엮여 있는 형태르 말합니다.
+옵셔널체이닝은 그림과같이 ?을 반복사용하여 값을 찾아냅니다. 
+중요한점은 옵셔널체이닝이 ? 물어봐서 nil이라는 값을 찾아내면 그 다음 체이닝은 필요없이 바로 리턴합니다
+
+![Screen Shot 2022-01-06 at 14 51 55](https://user-images.githubusercontent.com/40172001/148347879-54f60827-2adc-4bb6-a347-496361a64bd7.png)
+
+![Screen Shot 2022-01-06 at 14 52 08](https://user-images.githubusercontent.com/40172001/148347920-f7f7545c-a483-4798-b739-713f4b81656d.png)
+
+
+만약 값을 할당하고 싶으면 기존 체이닝문에서 하나씩 Nil 값에 값을 넣어 최종적으로 사용자가 원하는 값을 옵셔널로 값으 가져오게 할 수 있습니다.
+
+![Screen Shot 2022-01-06 at 14 52 23](https://user-images.githubusercontent.com/40172001/148347951-68950318-4a1e-4712-809e-392a7166fc0e.png)
+
 
 struct 
 
