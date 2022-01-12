@@ -32,3 +32,7 @@ touchupinside로 터치 후 바로 보여줍니다
 
 2. 값을 실제로 전달해보기
 
+이메일과 업데이트 설정 갱신주기를 넘기는 예제를 만들어보았습니다.
+
+![Screen Shot 2022-01-12 at 21 23 00](https://user-images.githubusercontent.com/40172001/149140143-896731cf-fb20-489c-bee4-f451e37e1f0c.png)
+
