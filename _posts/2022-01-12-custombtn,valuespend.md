@@ -30,4 +30,5 @@ touchupinside로 터치 후 바로 보여줍니다
 
 ![Screen Shot 2022-01-12 at 21 12 31](https://user-images.githubusercontent.com/40172001/149139195-ce97b002-6569-4943-a363-b7c74d6c92c6.png)
 
-2.
+2. 값을 실제로 전달해보기
+
