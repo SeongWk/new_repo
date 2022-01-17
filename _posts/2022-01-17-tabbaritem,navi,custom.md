@@ -2,7 +2,7 @@
 layout: post
 title: "Tabbaritem,navi cusom" 
 subtitle:  "no storyboard"
-cover-img: /assets/img/b58.jpeg
+cover-img: /assets/img/b61.jpeg
 thumbnail-img: /assets/img/b59.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
