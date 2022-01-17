@@ -2,7 +2,7 @@
 layout: post
 title: "Tab bar, Alert"
 subtitle:  "No storyboard"
-cover-img: /assets/img/b56.jpeg
+cover-img: /assets/img/b60.jpeg
 thumbnail-img: /assets/img/b57.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
