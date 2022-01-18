@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tabbaritem,navi cusom" 
+title: "Tabbaritem,navi custom" 
 subtitle:  "no storyboard"
 cover-img: /assets/img/b61.jpeg
 thumbnail-img: /assets/img/b59.jpeg
