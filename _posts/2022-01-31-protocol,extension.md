@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "protcol and extension and error handling" 
+title: "protocol and extension and error handling" 
 subtitle:  "프로토콜 익스텐션 에러처리"
 cover-img: /assets/img/zz1.jpeg
 thumbnail-img: /assets/img/zz.jpeg
