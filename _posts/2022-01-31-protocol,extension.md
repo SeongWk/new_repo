@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "protcol and extension" 
-subtitle:  "@IBOutlet and @IBAction"
+title: "protcol and extension and error handling" 
+subtitle:  "프로토콜 익스텐션 에러처리"
 cover-img: /assets/img/p1.jpg
 thumbnail-img: /assets/img/effel.jpeg
 share-img: /assets/img/path.jpg
@@ -12,7 +12,9 @@ comments: true
 ---
 
 
-프로토콜은 메서드나,프로퍼티를 기본적인 요구사항이나 희망사항을 말 그대로 건물을 짓기 전에 모델링 하듯이 청사진을 의미합니다.
+프로토콜은 메서드나,프로퍼티를 기본적인 요구사항이나 희망사항을 요구
+말 그대로 건물을 짓기 전에 모델링 하듯이 청사진을 의미합니다.
+
 추가로 익스텐션은 상속과 다르게 수평확장 되면 재정의 불가 기능입니다.
 
 프로토콜 예시
@@ -34,12 +36,25 @@ exampleprotcol이라는 프로토콜을 정의 한후 상속 받아 특별히 �
 에러처리는 컴퓨터에 있는 프로그램이 오류가 났을 떄 감지하고 처리하는 과정입니다.
 error라는 타입 값으로 표현됩니다.
 
+<img width="555" alt="Screen Shot 2022-01-31 at 15 54 23" src="https://user-images.githubusercontent.com/40172001/151752325-ef07c6ec-4b49-4061-97c8-4fbcef09c449.png">
+
+
 보통 3가지 처리 방법입니다
 1. do catch
 2. 옵셔널
 3. 발생한 오류를 코드에 알림
 
 1번부터 3번까지 차례대로 구문을 처리하느 것을 표현하면
+
 do -catch구문은 do 내부코드에서 오류를 던지면 catch구문에서 전달받고 오루를 처리하는 것입니다.
+
 옵셔널은 try?구문으 통해 오류를 던지면 오류인지 아닌지 확인하고 오류면 nil이 반환되게 처리합니다.
+
 try -throws로 받아 오류를 처리합니다.
+
+코드예시
+
+<img width="538" alt="Screen Shot 2022-01-31 at 15 54 30" src="https://user-images.githubusercontent.com/40172001/151752355-d993a454-60ee-4a92-a026-f6dbb2ab3a98.png">
+
+<img width="505" alt="Screen Shot 2022-01-31 at 16 10 26" src="https://user-images.githubusercontent.com/40172001/151752545-4f1dfbb7-c055-43d7-bc10-78ae8671b72b.png">
+
