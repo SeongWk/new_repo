@@ -2,8 +2,8 @@
 layout: post
 title: "protcol and extension and error handling" 
 subtitle:  "프로토콜 익스텐션 에러처리"
-cover-img: /assets/img/p1.jpg
-thumbnail-img: /assets/img/effel.jpeg
+cover-img: /assets/img/zz1.jpeg
+thumbnail-img: /assets/img/zz.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
