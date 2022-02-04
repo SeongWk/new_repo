@@ -61,4 +61,4 @@ App architecture
 <img width="296" alt="Screen Shot 2022-02-04 at 14 49 04" src="https://user-images.githubusercontent.com/40172001/152479374-ef74ba98-d742-43fc-bc6b-1487cd57ae12.png">
 
 
-apple mobile human interface를 
+apple mobile human interface를 참조
