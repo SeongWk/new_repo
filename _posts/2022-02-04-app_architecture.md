@@ -2,8 +2,8 @@
 layout: post
 title: "모바일 인터페이스 가이드라인 "
 subtitle:  "앱 아키텍쳐"
-cover-img: /assets/img/k459.jpeg
-thumbnail-img: /assets/img/p42.jpeg
+cover-img: /assets/img/lt1.jpeg
+thumbnail-img: /assets/img/lt2.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
