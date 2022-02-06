@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "data structure" 
-subtitle:  "stack & Queue"
+title: "data structure1" 
+subtitle:  "stack & Queue & deque"
 cover-img: /assets/img/bc1.jpeg
 thumbnail-img: /assets/img/bc2.jpeg
 share-img: /assets/img/path.jpg
@@ -43,3 +43,17 @@ isempty와 count는 자료안에 자료가 진짜 있는지 말해주는 것과 
 
 
 <img width="655" alt="Screen Shot 2022-02-04 at 16 32 31" src="https://user-images.githubusercontent.com/40172001/152489674-c4939436-d6fd-4ac4-9df4-c17da73fd6c7.png">
+
+3. 데크
+
+데크는  큐의 향상버전이랄까 생각합니다.
+
+일명 더블큐라고 불리우는 데크는 큐가 앞에서 데이터를 지우고 뒤에서 들어올 수 있지만 
+
+데크는 뒤에서 혹은 앞에서 데이터를 삽입 혹은 지울 수 있는 멋쟁이 알고리즘입니다.
+
+<img width="724" alt="Screen Shot 2022-02-06 at 14 43 40" src="https://user-images.githubusercontent.com/40172001/152669299-f8c82858-0402-455a-aacd-8f29ae7057e1.png">
+
+<img width="722" alt="Screen Shot 2022-02-06 at 14 44 56" src="https://user-images.githubusercontent.com/40172001/152669300-72df9970-2d7f-4d90-bdc3-2cbf390e8a47.png">
+
+
