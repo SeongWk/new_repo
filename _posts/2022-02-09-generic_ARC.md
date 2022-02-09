@@ -2,8 +2,8 @@
 layout: post
 title: "generic"
 subtitle:  "제너릭"
-cover-img: /assets/img/b60.jpeg
-thumbnail-img: /assets/img/b57.jpeg
+cover-img: /assets/img/m90.jpeg
+thumbnail-img: /assets/img/m91.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
