@@ -11,7 +11,10 @@ tags: [swift, ios, Xcode]
 comments: true
 ---
 
+
 App life cycle
+
+
 
 1. unattached - Scene에 연결이 되지 않는 상태
 
@@ -24,6 +27,7 @@ App life cycle
 5. SuSpended - app이 background이고 실행된 코드가 없는 상태
 
 
+----------------------------------------------------
 
 
 사용자의 앱을 상태를 변경하려면 사용자는 반드시 행동을 해주어야합니다
@@ -34,9 +38,10 @@ App life cycle
 13 이후에는 use UISceneDelegate로 Lifecycle을 조정함
 
 
-
+------------------------------------------------------
 
 Scene-based Life cycle	
+
 
 
 UIkit deliever는 각각 이벤트의 life-cycle을 분리할 수 있습니다.
