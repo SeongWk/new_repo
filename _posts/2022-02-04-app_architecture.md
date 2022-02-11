@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "모바일 인터페이스 가이드라인 "
+title: "ios technologies "
 subtitle:  "앱 아키텍쳐"
 cover-img: /assets/img/lt1.jpeg
 thumbnail-img: /assets/img/lt2.jpeg
