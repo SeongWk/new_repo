@@ -2,8 +2,8 @@
 layout: post
 title: "ios technologies "
 subtitle:  "앱 생명주기"
-cover-img: /assets/img/lt1.jpeg
-thumbnail-img: /assets/img/lt2.jpeg
+cover-img: /assets/img/nm7.jpeg
+thumbnail-img: /assets/img/nm6.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
