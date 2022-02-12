@@ -31,92 +31,19 @@ Photo2
 Touchableview class  3가지 method
 
 TouchesBegan(_: with :) - 각 이벤트 장소에 새로운 서브뷰를 만듬
+
 TouchesMoved(_: with :) - 각 이벤트 장소에 새로운 장소를 업데이트
+
 TouchesEnded_: with :) - 각 이벤트 장소에  관련된 서브뷰를 제거
 
-class TouchableView: UIView {
-   var touchViews = [UITouch:TouchSpotView]()  
- 
-   override init(frame: CGRect) {
-      super.init(frame: frame)
-      isMultipleTouchEnabled = true
-   }
- 
-   required init?(coder aDecoder: NSCoder) {
-      super.init(coder: aDecoder)
-      isMultipleTouchEnabled = true
-   }
- 
-   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-      for touch in touches {
-         createViewForTouch(touch: touch) // 새로우 터치뷰 생성
-      }
-   }
- 
-   override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-      for touch in touches {
-         let view = viewForTouch(touch: touch) 
-         // Move the view to the new location.
-         let newLocation = touch.location(in: self)
-         view?.center = newLocation. // 터치가 움직일떄마다 로케이션 조절
-      }
-   }
- 
-   override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-      for touch in touches {
-         removeViewForTouch(touch: touch) // 터치가 끝나면 터치 뷰 제거
-      }
-   }
- 
-   override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-      for touch in touches {
-         removeViewForTouch(touch: touch) // 터치가 취소되면 터치 뷰 제거
-      }
-   }
-  
-   // Other methods. . . 
-}
+touchableview실행시 메소드
 
-  
-func createViewForTouch( touch : UITouch ) {
-   let newView = TouchSpotView()
-   newView.bounds = CGRect(x: 0, y: 0, width: 1, height: 1)
-   newView.center = touch.location(in: self)
- 
-   // Add the view and animate it to a new size.
-   addSubview(newView)
-   UIView.animate(withDuration: 0.2) {
-      newView.bounds.size = CGSize(width: 100, height: 100)
-   } ->뷰안에 실제 애니메이션 생성
- 
-   // Save the views internally
-   touchViews[touch] = newView
-}
- 
-func viewForTouch (touch : UITouch) -> TouchSpotView? {
-   return touchViews[touch]
-}
- 
-func removeViewForTouch (touch : UITouch ) {
-   if let view = touchViews[touch] {
-      view.removeFromSuperview()
-      touchViews.removeValue(forKey: touch)
-   } -> 뷰안에서 터치제거
-}
-  
-class TouchSpotView : UIView {
-   override init(frame: CGRect) {
-      super.init(frame: frame)
-      backgroundColor = UIColor.lightGray
-   }
- 
-   // Update the corner radius when the bounds change.
-   override var bounds: CGRect {
-      get { return super.bounds }
-      set(newBounds) {
-         super.bounds = newBounds
-         layer.cornerRadius = newBounds.size.width / 2.0
-      }
-   }
-}  
-  
+<img width="362" alt="Screen Shot 2022-02-12 at 15 34 21" src="https://user-images.githubusercontent.com/40172001/153700156-98757300-a5ac-4ea0-9b03-3e00edaa2ffe.png">
+
+서브뷰 관리
+
+<img width="339" alt="Screen Shot 2022-02-12 at 15 34 29" src="https://user-images.githubusercontent.com/40172001/153700157-82e440e0-c7f5-43c0-a26e-f536426df6bf.png">
+
+touchspotview 설명 및 location 제시
+
+<img width="318" alt="Screen Shot 2022-02-12 at 15 34 36" src="https://user-images.githubusercontent.com/40172001/153700161-9fa674e4-14d3-4ee3-a800-bebb2c27ccb9.png">
