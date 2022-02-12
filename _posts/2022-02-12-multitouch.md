@@ -2,8 +2,8 @@
 layout: post
 title: "Multi touch event"
 subtitle:  "멀티 터치 이벤트 핸들링"
-cover-img: /assets/img/e88.jpeg
-thumbnail-img: /assets/img/e90.jpeg
+cover-img: /assets/img/bb44.jpeg
+thumbnail-img: /assets/img/bb45.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
