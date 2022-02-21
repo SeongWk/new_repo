@@ -2,8 +2,8 @@
 layout: post
 title: "Cocoapods" 
 subtitle:  "간단 설치 및 구현"
-cover-img: /assets/img/bb1.jpeg
-thumbnail-img: /assets/img/bb2.jpeg
+cover-img: /assets/img/kk78.jpeg
+thumbnail-img: /assets/img/kk77.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
