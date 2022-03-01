@@ -2,8 +2,8 @@
 layout: post
 title: "Dispatchqueue"
 subtitle:  "GCD 간단 정리"
-cover-img: /assets/img/e89.jpeg
-thumbnail-img: /assets/img/z45.jpeg
+cover-img: /assets/img/qx22.jpeg
+thumbnail-img: /assets/img/qx21.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
@@ -93,4 +93,16 @@ default로 해서 예를 들면
 1,2이후에 B가 나오는 것이 맞고 3,4 이후에 D가 나오는 것을 무조건 볼 수 있지만
 비동기인 A,C는 알 수 없는 것을 볼 수 있다.
 
+정리
 
+dispathqueue = Serial/Concurrent
+
+sync = 동기적 async = 비동기적
+
+Main queue는 sync로 실행하면 안된다 deadlock걸림
+
+Global queue는 우선순위가 있음
+
+custom은 default가 Serial이고 변경가능하다
+
+끝!
