@@ -27,4 +27,33 @@ Concurrent는 작업을 동시에 진행하지만 순서가 보장되지 않음
 
 sync는 동기적 async는 비동기적 방식으로 뜻한다.
 
-만약 
+example을 만들어보면
+
+1.Serial
+
+main
+
+<img width="842" alt="Screen Shot 2022-03-01 at 15 31 57" src="https://user-images.githubusercontent.com/40172001/156120438-665dd5e6-0f4f-4f17-8afd-df6bda61fe7f.png">
+
+<img width="164" alt="Screen Shot 2022-03-01 at 15 32 26" src="https://user-images.githubusercontent.com/40172001/156120464-4bc2f1dc-b6ab-4a8f-807b-b2adb7992773.png">
+
+mainqueue는 main 스레드에서 실행되기 때문에 다른 dispatchqueue가 다 실행된 다음에 실행된다
+
+custom
+
+<img width="647" alt="Screen Shot 2022-03-01 at 15 49 07" src="https://user-images.githubusercontent.com/40172001/156120497-52809015-0eec-44ce-81b7-d8596b6d5eeb.png">
+
+<img width="116" alt="Screen Shot 2022-03-01 at 15 49 18" src="https://user-images.githubusercontent.com/40172001/156120522-379c1ec8-21b9-4122-b506-e523cfa02a44.png">
+
+global queue은
+
+Main queue와 다르게 독립으로 실행된다
+
+
+sync는 순차적으로 실행 된다
+
+<img width="669" alt="Screen Shot 2022-03-01 at 15 50 40" src="https://user-images.githubusercontent.com/40172001/156120550-396e8ae0-1c24-49b8-9455-b4c82074fdc4.png">
+
+<img width="58" alt="Screen Shot 2022-03-01 at 15 51 01" src="https://user-images.githubusercontent.com/40172001/156120562-9cd1d2ad-f00e-4f5b-a0bb-bea3bcf65aad.png">
+
+
