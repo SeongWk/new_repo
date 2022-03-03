@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "function,optional,class,struct"
-subtitle:  "함수와 옵셔널 그리고 구조체와 클래스"
+title: "function,optional,class,struct,closure"
+subtitle:  "함수와 옵셔널 그리고 구조체와 클래스,클로져까지"
 cover-img: /assets/img/k459.jpeg
 thumbnail-img: /assets/img/p42.jpeg
 share-img: /assets/img/path.jpg
@@ -128,3 +128,36 @@ Class name
 ![Screen Shot 2022-01-04 at 22 54 50](https://user-images.githubusercontent.com/40172001/148070678-c11a660f-3dd0-4568-aba6-3517d1397f4b.png)
 
 구조체와 클래스와 다른 점은 구조체는 값타입 클래스는 참조타입입니다.
+
+
+closure
+
+클로져는 익명함수이면서 1급 함수이다.
+
+클로져 표현식
+
+	{ (Parameters)-> return type in
+	   code
+	}
+
+Clousure head와 closure body를 구분하는 것이 in이다.
+
+예를들어보면
+
+ex1이라는 클로져 함수를 만들었을 때 값을 상수에다가 쓸수 있다.
+
+<img width="476" alt="Screen Shot 2022-03-03 at 21 00 08" src="https://user-images.githubusercontent.com/40172001/156561973-64192c59-c657-4ab9-9f00-522b041e5b27.png">
+
+<img width="394" alt="Screen Shot 2022-03-03 at 21 00 14" src="https://user-images.githubusercontent.com/40172001/156561935-89b2e9b0-dc64-486b-8d4a-5d25c9cf4cc7.png">
+
+또한 클로져 안에 클로져를 써서 결과를 나타낼수도 있고
+
+<img width="708" alt="Screen Shot 2022-03-03 at 21 00 42" src="https://user-images.githubusercontent.com/40172001/156562179-d6860d41-6d68-4c5c-9a4e-1e9594e06658.png">
+
+
+Capture value 특징을 통해 해당 상수나 변수의 값을 참조할 수 있다.
+또한 캡쳐도 가능하다
+
+<img width="625" alt="Screen Shot 2022-03-03 at 21 11 29" src="https://user-images.githubusercontent.com/40172001/156562573-80b6337e-b509-492d-88e0-67010f64560b.png">
+
+
