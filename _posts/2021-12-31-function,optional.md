@@ -160,4 +160,29 @@ Capture value 특징을 통해 해당 상수나 변수의 값을 참조할 수 �
 
 <img width="625" alt="Screen Shot 2022-03-03 at 21 11 29" src="https://user-images.githubusercontent.com/40172001/156562573-80b6337e-b509-492d-88e0-67010f64560b.png">
 
+클로져의 대표적인 method로  sort(), filter(), map(), reduce()가 있습니다.
 
+값을 정렬하거나
+
+<img width="632" alt="Screen Shot 2022-03-03 at 21 21 15" src="https://user-images.githubusercontent.com/40172001/156564549-c7d77aff-833b-4ed5-9f5e-e260f470c6f3.png">
+
+
+값을 필터링하거나
+
+<img width="641" alt="Screen Shot 2022-03-03 at 21 22 21" src="https://user-images.githubusercontent.com/40172001/156564545-10ca59f6-18f8-4356-af22-546fb4014d5b.png">
+
+
+값을 재가공하거나
+
+<img width="606" alt="Screen Shot 2022-03-03 at 21 23 29" src="https://user-images.githubusercontent.com/40172001/156564526-56456006-1957-461f-8213-b0bb063a0dd6.png">
+
+
+값을 지워버리게 만들거나 
+
+<img width="655" alt="Screen Shot 2022-03-03 at 21 24 16" src="https://user-images.githubusercontent.com/40172001/156564493-fb67fcdc-a95c-495b-888c-b7d6f7bf46d4.png">
+
+여러모로 자주 쓰인다.
+
+
+또한 탈출클로져가 있는데 탈출한 클로져 앞에 
+@escaping을 붙여주면 탈출을 허락하는 의미로 쓰일 수 있습니다.
