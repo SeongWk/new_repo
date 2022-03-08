@@ -35,9 +35,9 @@ REST는 Representational State Transfer라는 용어의 약자
 
 rest의 구성요소
 
--resource: 자원
--method: 방법
--representation of resources: 자원의 표현
+- resource: 자원
+- method: 방법
+- representation of resources: 자원의 표현
 
 HTTP의 URI(Uniform Resource Identifier)를 통해 자원(Resource)을 정하고, 
 
@@ -45,11 +45,11 @@ HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD을 �
 
 CRUD Operation
 
--Create : 생성(POST)
--Read : 조회(GET)
--Update : 수정(PUT)
--Delete : 삭제(DELETE)
--HEAD: header 정보 조회(HEAD)
+- Create : 생성(POST)
+- Read : 조회(GET)
+- Update : 수정(PUT)
+- Delete : 삭제(DELETE)
+- HEAD: header 정보 조회(HEAD)
 
 
 ---------------------------
