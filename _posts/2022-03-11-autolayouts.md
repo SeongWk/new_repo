@@ -2,8 +2,8 @@
 layout: post
 title: "autolayout 간단정리" 
 subtitle:  "apple developer document"
-cover-img: /assets/img/bb1.jpeg
-thumbnail-img: /assets/img/bb2.jpeg
+cover-img: /assets/img/q245.jpeg
+thumbnail-img: /assets/img/q246.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
