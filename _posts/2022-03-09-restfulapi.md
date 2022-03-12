@@ -58,3 +58,50 @@ CRUD Operation
 Restful api
 
 -> rest기반으로 만드는 애플리케이션 프로그래밍 인터페이스
+
+
+-----------------------------
+
+URLSession
+
+URLSession은 http,https를 통한 데이터를 주고받기 위해서  api를 제공하는 class
+
+URLSession 사용 순서
+
+1.  URL 설정
+2.  URLSession 생성
+3.  Task 설정
+4. Task 실행
+
+
+URLSessionConfiguration
+
+- Default: 기본
+- Ephemeral: 쿠키를 저장하지 않는 것들
+- Background: 백그라운드 앱이 있을 떄 업로드나 다운로드 할 떄
+
+URLSession Task
+
+- DataTask: data를 받는 작업
+- UploadTask: 파일 업로드
+- DownloadTask: 파일 다운로드
+
+
+URLRequest: URL load 요청
+
+- URLRequest객체 직접 create해서 옵션 및 설정 확인 후 통신
+
+URLResponse: URL load 요청에 관한 data 응답
+
+
+Response할 떄 받는 두가지 방법
+
+Completion Handler로 결과 받는 법
+
+URLSession -> URLSessionDataTask -> CompletionHandler
+
+Delegate로 결과 받는 법
+
+URLSession -> URLSessiondataTask(Create)
+URLSession -> URLSessionDelegate(callback function)
+
