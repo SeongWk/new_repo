@@ -17,6 +17,7 @@ HTTP
 HTTP는 서버에서 클라이언트로 데이터를 전송하기 위해 사용하는 어플리케이션 프로토콜이다. 
 
 HTTP는 사용자가 목적에 따라 메소드를 정의를 하고 있다
+
 참고로 https: http에서 보안버전이다.
 
 - GET: 웹 페이지 같은 데이터를 가져온다
@@ -71,7 +72,7 @@ URLSession 사용 순서
 1.  URL 설정
 2.  URLSession 생성
 3.  Task 설정
-4. Task 실행
+4.  Task 실행
 
 
 URLSessionConfiguration
@@ -103,5 +104,6 @@ URLSession -> URLSessionDataTask -> CompletionHandler
 Delegate로 결과 받는 법
 
 URLSession -> URLSessiondataTask(Create)
+
 URLSession -> URLSessionDelegate(callback function)
 
