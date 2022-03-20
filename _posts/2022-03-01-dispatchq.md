@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dispatchqueue"
-subtitle:  "GCD 간단 정리"
+subtitle:  "GCD"
 cover-img: /assets/img/qx22.jpeg
 thumbnail-img: /assets/img/qx21.jpeg
 share-img: /assets/img/path.jpg
