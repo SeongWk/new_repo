@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "autolayout 간단정리" 
+title: "autolayout" 
 subtitle:  "apple developer document"
 cover-img: /assets/img/q245.jpeg
 thumbnail-img: /assets/img/q246.jpeg
