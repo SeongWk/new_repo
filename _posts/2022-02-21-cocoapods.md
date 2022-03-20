@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cocoapods" 
-subtitle:  "간단 설치 및 구현"
+subtitle:  "패키지매니저"
 cover-img: /assets/img/kk78.jpeg
 thumbnail-img: /assets/img/kk77.jpeg
 share-img: /assets/img/path.jpg
