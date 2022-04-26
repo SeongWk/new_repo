@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "linkedlist & Tree & Graph" 
-subtitle:  "연결리스트와 트리,그래프"
+title: "linkedlist & Tree " 
+subtitle:  "연결리스트와 트리"
 cover-img: /assets/img/vbc1.jpeg
 thumbnail-img: /assets/img/vbc2.jpeg
 share-img: /assets/img/path.jpg
@@ -115,14 +115,4 @@ Tree
     
 자식노드: 콜드노드의 자식노드는 콜드브류와 아이스아메리카노
     
-그래프
 
-그래프는 꼭지점과 모서리들의 모음이다
-    
-꼭지점은 노드를 의미하고 모서리는 연결선을 의미함
-
-깊이우선탐색은 DFS
--루트노드가 해당 분기를 완벽하게 탐색하는 방법
-
-너비우선탐색은 BFS	
--루트노드가 인접한 노드부터 탐색하는 방법
