@@ -121,3 +121,6 @@ swift에서는 Codable 을 사용해서 쉽게 JSON을 인코딩 혹은 디코�
 보통 네트워킹 작업은 Foundation 프레임 워크의 URLSession을 사용한다 
 URLSession이 사용하기에 적합하지 않은데 경우가 있을 떄, 이러한 점을 보완하고자 사용하는 라이브러리가 Alamofire이다
 Alamofire는 swift 기반 HTTP 네트워킹 라이브러리이다. 
+
+
+Alamofire 
