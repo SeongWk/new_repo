@@ -34,12 +34,17 @@ pop() = 스택에 첫번쨰 데이터 제거
 
 peek() = 스택에 첫번쨰 요쇼 반환
 
-
 public struct StackList<T>
 {
+    
     fileprivate var head: Node<T>?  =  nil
+    
     private var _count: Int = 0
-    public init(){}
+    
+    public init()
+    {
+    
+    }
 
     public mutating func push(element: T)
     {
@@ -80,7 +85,7 @@ public struct StackList<T>
             self.data = data
         }
     }
-}
+ }
   
 
 Tree
