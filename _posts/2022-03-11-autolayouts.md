@@ -159,3 +159,28 @@ Compression Resistance(컴프레션 레지스턴스)
 이정도만 공부하였고 더 추가해야할 오토레이아웃 속성들이 넘쳐난다.
 
 레이아웃 마진, 디버깅, 스크롤뷰, 제약 변경 등등 추가로 할 예정이다.
+
+추가내용
+
+레이아웃을 찾아보는 도중. 괜찮은 라이브러리를 찾았다.
+
+길게 길게쓸필요없이 간단하게 구현 가능한 Snapkit
+
+사용법
+
+코코아팟으로 설치 후 import snapkit
+
+오토레이아웃을 마우스로도 할 수 있고 NSlayout으로도 할 수 있지만 snapkit방법이 훨씬 편한듯 하다.
+
+구현 코드
+
+![Screen Shot 2022-05-30 at 15 32 03](https://user-images.githubusercontent.com/40172001/170931587-e9cd218e-29e5-4d45-a97a-c996af9479fa.png)
+
+
+결과
+
+![Screen Shot 2022-05-30 at 15 31 50](https://user-images.githubusercontent.com/40172001/170931601-6ef5abfd-17eb-4dd1-bceb-2a85897e3ca6.png)
+
+
+계속 더 공부할 예정
+
