@@ -2,8 +2,8 @@
 layout: post
 title: "linkedlist & Tree " 
 subtitle:  "연결리스트와 트리"
-cover-img: /assets/img/vbc1.jpeg
-thumbnail-img: /assets/img/vbc2.jpeg
+cover-img: /assets/img/yy34.jpeg
+thumbnail-img: /assets/img/yy35.jpeg
 share-img: /assets/img/path.jpg
 gh-repo: Seongwk/testts
 gh-badge: [star, fork, follow]
