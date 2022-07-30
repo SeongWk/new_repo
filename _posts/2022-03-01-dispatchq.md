@@ -106,3 +106,70 @@ Global queue는 우선순위가 있음
 custom은 default가 Serial이고 변경가능하다
 
 끝!
+
+추가로배운것. 
+
+
+IOS Concurrency
+
+동시성 프로그래밍
+
+직접 스레드를 관리하지 않고 대기열로 분산처리
+
+gcd/operation을 이용해  시스템이 알아서 쓰레드 숫자를 관리
+
+GCD - 간단한 일 , Operation - 복잡한 일
+
+
+비동기: 
+작업을 다른 스레드에서 하도록 한 후, 그 작업이 끝나길  ‘안기다리고’ 
+다음 일을 진행 - async
+
+동기: 
+작업을 다른 스레드에서 하도록 한 후, 그 작업이 끝나길 ‘기다리고’ 
+다음 일을 진행 - sync
+
+Serial(직렬)
+- 분산처리 시킨 작업을 ‘다른 한개’의 스레드에서 작업을 처리
+- 순서가 중요한 작업에 처리할 때 사용
+
+Concurrent(동시) 
+- 분산처리 시킨 작업을 ‘다른 여러개’의 스레드에서 작업을 처리
+- 독립적이지만 유사한 여러개의 작업을 처리할 때 사용
+
+GCD main Queue 
+- DispatchQueue.main
+- 메인 쓰레드
+- Serial
+
+GCD global Queue
+- DispatchQueue.global(qos:)
+- 종류가 여러개(default, Qos)
+- Concurrent
+
+GCD custom Queue
+- DispatchQueue(label:”…”)
+-  Serial(Default),Concurrent 가능
+- Qos 설정가능
+
+OperationQueue
+- OperationQueue()
+-  Concurrent(serial 가능)
+-   .background
+
+ 
+UI관련된 일들은 메인큐에서 처리해야 한다
+메인큐에서는 비동기적으로 보내야 한다
+
+
+
+DispatchGroup
+-  task들을 group으로 묶고 그룹별로 끝나는 시점을 notify로 설정
+
+let group1 = DispatchGroup()
+
+DispatchQueue.global(qos: ).async(group:group1){  }
+
+group1.notify(queue:){  }
+
+group1.wait(timeout: DispatchTime.distantFuture) -> 실제앱에서 메인큐에서는 wait쓰지 말것!
